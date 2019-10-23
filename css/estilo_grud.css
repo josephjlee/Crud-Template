@@ -1,0 +1,27 @@
+.crud input{
+    position: relative;
+    display: list-item;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid grey;
+    color: black;
+    align-content: center;
+    width: 300px;
+    
+}
+input#entrar{
+    width: 312px;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.crud{
+    position: center;
+    display: inline-block;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
