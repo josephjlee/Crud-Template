@@ -1,0 +1,41 @@
+input#entrar{
+    width: 312px;
+    background: rgb(0, 0, 0, 0.5);
+}
+.crud{
+    display: inline-block;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    animation: init 1s alternate;
+    margin-top: 8%;
+}
+.input{
+    display: inline;
+    position: relative;
+    display: list-item;
+    border-radius: 10px;
+    margin: 20px;
+    color: black;
+    align-content: center;
+    font-size: 15px;
+    background-color: white;
+    padding: 3px;
+}
+li{
+    list-style-type: none;
+}
+@keyframes init {
+    from{
+        left: -1000px;
+    }
+    to{
+        left: 0px;
+    }
+}
+a{
+    color: black;
+}

@@ -4,29 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/estilo_grud.css">
+    <link rel="stylesheet" href="css/estilo_crud.css">
     <link rel="stylesheet" href="css/index.css">
-    <style>
-        body{ 
-            background-image: url("_imagens/fundo_pag.jpeg");
-        }
-    </style>
+   <script type="text/javascript" src="script/script.js"></script>
     <title>CADASTRO</title>
 </head>
 <body>
         <div class = "crud">
             <form action="/_cadastro.html">   
-                <h1 id = "txt">Faça seu cadastro </h1>
-                <input type="text" name="username" id="username" placeholder="Usuario">
-                <input type="text" name="password" id="password" placeholder="Senha">
-                <input type="text" name="confirm_pass" id="confirm_pass" placeholder="Confirmar senha">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <input type="date" name="data_nasc" id="data_nasc">
-                <button class="button">CADASTRE-SE </button>
+                <ul>
+                    <h1 id = "txt">Faça seu cadastro </h1>
+                    <li class = 'input'><p><img src="https://img.icons8.com/material-rounded/20/000000/name.png"><input type="text" name="username" id="username" placeholder="Usuario"></p></li>
+                    <li class = 'input'><p><img src="https://img.icons8.com/ios-filled/20/000000/password.png"><input type="text" name="password" id="password" placeholder="Senha"></p></li>
+                    <li class = 'input'><p><img src="https://img.icons8.com/ios-filled/20/000000/password.png"><input type="text" name="confirm_pass" id="confirm_pass" placeholder="Confirmar senha"></p></li>
+                    <li class = 'input'><p><img src="https://img.icons8.com/material-sharp/20/000000/important-mail.png"><input type="email" name="email" id="email" placeholder="Email"></p></li>
+                    <li class = 'input'><p><img src="https://img.icons8.com/ios-filled/20/000000/birth-date.png"><input type="date" name="data_nasc" id="data_nasc"></p></li>
+                   <a href = 'cadastrado.html' style= 'text-decoration:none; color:white;'> <p class="button"> CADASTRE-SE </p></a>
+                </ul>
             </form>
         </div>
-
-
-
 </body>
 </html>
